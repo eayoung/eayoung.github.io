@@ -1,11 +1,94 @@
 <!DOCTYPE html>
 <html lang="en">
 	<head>
+		<meta charset="utf-8">
+		<meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
 		<link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
 
 		<title>E A Young</title>
+
+		<style type="text/css">
+			.bg-primary{
+				background-color: #333 !important;
+			}
+
+			.navbar-brand {
+				color: #ffe600 !important;
+			}
+
+			body {
+				background-color: #ccc;
+			}
+
+			p a {
+				color: #e18a07;
+				text-decoration: underline;
+			}
+
+			p a:hover {
+				color: #E18A07;
+				text-decoration: none;
+			}
+
+			.text-gold {
+				color:#ffe600;
+			}
+		</style>
 	</head>
 	<body>
-		<h1>E A Young</h1>
+		<nav class="navbar navbar-expand-lg navbar-dark bg-primary"> <!--fixed-top?-->
+			<a class="navbar-brand" href="#">Home</a>
+			<button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+				<span class="navbar-toggler-icon"></span>
+			</button>
+			<div class="collapse navbar-collapse" id="navbarNav">
+				<ul class="navbar-nav">
+					<li class="nav-item active">
+						<a class="nav-link" href="#">Resume/CV</a>
+					</li>
+					<li class="nav-item">
+						<a class="nav-link" href="#">Portfolio</a>
+					</li>
+					<li class="nav-item">
+						<a class="nav-link" href="#">Miscellaneous</a>
+					</li>
+				</ul>
+			</div>
+		</nav>
+
+		<div id="main-content" class="container">
+
+			<div class="card">
+				<div class="card-body">
+				    <h1 class="card-title">E A Young</h1>
+				    <h2 class="card-subtitle mb-2 text-gold">This site is under construction.</h2>
+				</div>
+			</div>
+
+			<div class="card my-3">
+				<div class="card-body">
+				    <h3 class="card-title">Resume</h3>
+				    <p class="card-text">
+				    	<h4>Work Experience</h4>
+				    	<label id="UCI-OIT" for="job-info-1">UC Irvine, Office of Information Technology: Support Specialist, OVPTL IT Team</label>
+				    	<ul id="job-info-1" labelled-by="UCI-OIT">
+				    		<li>Certified Scrum Master</li>
+				    		<li>QA Lead</li>
+				    		<li>Support Lead</li>
+				    		<li>Front End Design</li>
+				    	</ul>
+				    </p>
+				</div>
+			</div>
+
+			<div class="card my-3">
+				<div class="card-body">
+				    <h3 class="card-title">Miscellaneous</h3>
+				    <p class="card-text"><a href="https://www.goodreads.com/user/show/68156869-emily">Goodreads</a></p>
+				</div>
+			</div>
+
+		</div>
+
 	</body>
 </html>
