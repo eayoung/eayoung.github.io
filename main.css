@@ -1,0 +1,25 @@
+﻿.bg-primary {
+	background-color: #333 !important;
+}
+
+.navbar-brand {
+	color: #ffe600 !important;
+}
+
+body {
+	background-color: #ccc;
+}
+
+p a {
+	color: #e18a07;
+	text-decoration: underline;
+}
+
+p a:hover {
+	color: #E18A07;
+	text-decoration: none;
+}
+
+.text-gold {
+	color:#ffe600;
+}
